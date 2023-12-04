@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="main-wrap">
+    <div class="main-wrap__shadows main-wrap__shadows-one"></div>
+    <div class="main-wrap__shadows main-wrap__shadows-two"></div>
+    <div class="main-wrap-h">
+      <img class="main-wrap__h" src="./assets/img/symbol_h.svg" alt="Big H">
+    </div>
+    <section class="main-wrap__section container d-flex flex-column justify-content-between">
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-sm">
+            <div class="header-wrap">
+              <div class="header-wrap__logo d-flex align-items-center justify-content-between">
+                <a class="navbar-brand" href="#"><object data="./assets/img/Logo.svg" type=""></object></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div
+                class="header-wrap__address d-none d-sm-flex align-items-center gap-1 justify-content-md-end justify-content-start">
+                <div class="d-flex justify-content-md-end justify-content-start">
+                  <button class="header-wrap__address__btn f-size12 f-weight700 active">УК</button>
+                  <button class="header-wrap__address__btn f-size12 f-weight700">РУ</button>
+                  <button class="header-wrap__address__btn f-size12 f-weight700">EN</button>
+                </div>
+                <address
+                  class="d-flex align-items-center text-light m-0 header-wrap__address-gap justify-content-md-end justify-content-start">
+                  <p class="adress-item mb-0">Kyiv, Mechnikova str, 14/1</p>
+                  <p class="adress-item mb-0 f-size16 f-weight700">0800 211 927</p>
+                  <a class="adress-item mb-0" href="">
+                    <object data="./assets/img/Facebook-Header.svg" type=""></object>
+                  </a>
+                </address>
+              </div>
+              <div class="header-wrap__nav offcanvas offcanvas-bottom justify-content-md-end justify-content-start"
+                tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header justify-content-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-md-end justify-content-start">
+                  <ul class="d-flex gap-3 ps-0 flex-sm-row flex-column flex-nowrap">
+                    <li><a class="nav-link" href="#">about us</a></li>
+                    <li><a class="nav-link" href="#">services</a></li>
+                    <li><a class="nav-link" href="#">team</a></li>
+                    <li><a class="nav-link" href="#">publications</a></li>
+                    <li><a class="nav-link" href="#">contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div>
+        <h1 class="text-light text-center f-weight700 f-size38">you legal solutions provider</h1>
+      </div>
+      <div class="text-center">
+        <button class="scroll-btn" type="button" id="#down"><img src="./assets/img/Scroll.svg" alt=""></button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -20,61 +20,115 @@
   <main class="main-wrap">
     <div class="main-wrap__shadows main-wrap__shadows-one"></div>
     <div class="main-wrap__shadows main-wrap__shadows-two"></div>
-    <div class="main-wrap-h">
-      <img class="main-wrap__h" src="./assets/img/symbol_h.svg" alt="Big H">
+    <div class="wrapper">
+      <div class="main-wrap-h">
+        <img class="main-wrap__h" src="./assets/img/symbol_h.svg" alt="Big H">
+      </div>
+      <section class="main-wrap__section container d-flex flex-column justify-content-between">
+        <header>
+          <div class="container">
+            <nav class="navbar navbar-expand-sm">
+              <div class="header-wrap">
+                <div class="header-wrap__logo d-flex align-items-center justify-content-between">
+                  <a class="navbar-brand" href="#"><object data="./assets/img/Logo.svg" type=""></object></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div
+                  class="header-wrap__address d-none d-sm-flex align-items-center gap-1 justify-content-md-end justify-content-start">
+                  <div class="d-flex justify-content-md-end justify-content-start">
+                    <button class="header-wrap__address__btn f-size12 f-weight700 active">УК</button>
+                    <button class="header-wrap__address__btn f-size12 f-weight700">РУ</button>
+                    <button class="header-wrap__address__btn f-size12 f-weight700">EN</button>
+                  </div>
+                  <address
+                    class="d-flex align-items-center text-light m-0 header-wrap__address-gap justify-content-md-end justify-content-start">
+                    <p class="adress-item mb-0">Kyiv, Mechnikova str, 14/1</p>
+                    <p class="adress-item mb-0 f-size16 f-weight700">0800 211 927</p>
+                    <a class="adress-item mb-0" href="https://facebook.com" target="_blank">
+                      <img src="./assets/img/Facebook-Header.svg" alt="FACEBOOK">
+                    </a>
+                  </address>
+                </div>
+                <div class="header-wrap__nav offcanvas offcanvas-bottom justify-content-md-end justify-content-start"
+                  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body justify-content-md-end justify-content-start">
+                    <ul class="d-flex gap-3 ps-0 flex-sm-row flex-column flex-nowrap">
+                      <li><a class="nav-link" href="#">about us</a></li>
+                      <li><a class="nav-link" href="#">services</a></li>
+                      <li><a class="nav-link" href="#">team</a></li>
+                      <li><a class="nav-link" href="#">publications</a></li>
+                      <li><a class="nav-link" href="#">contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <div>
+          <h1 class="text-light text-center f-weight700 f-size38">you legal solutions provider</h1>
+        </div>
+        <div class="text-center">
+          <button class="scroll-btn" type="button" id="#down">
+            <img src="./assets/img/Scroll.svg" alt="">
+            <img src="./assets/img/Scroll_red.svg" alt="">
+          </button>
+        </div>
+      </section>
     </div>
-    <section class="main-wrap__section container d-flex flex-column justify-content-between">
-      <header>
-        <div class="container">
-          <nav class="navbar navbar-expand-sm">
-            <div class="header-wrap">
-              <div class="header-wrap__logo d-flex align-items-center justify-content-between">
-                <a class="navbar-brand" href="#"><object data="./assets/img/Logo.svg" type=""></object></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+    <section>
+      <div class="container-lg">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-main">
+          <div class="buttons">
+            <button class="buttons_btn" type="text-button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">Consistent</button>
+            <button class="buttons_btn" type="text-button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1" aria-label="Slide 2">Customer oriented</button>
+            <button class="buttons_btn" type="text-button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2" aria-label="Slide 3">Innovative</button>
+            <button class="buttons_btn" type="text-button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3" aria-label="Slide 4">Business oriented</button>
+          </div>
+          <div class="text">
+            <div class=" carousel-inner container text-light d-flex">
+              <div class="carousel-item active carousel-inner__txt">
+                <h1>We turn the idea of legal services</h1>
+                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                  and achieve a number of important decisions for the industry. Many of them form the practice of
+                  applying
+                  the law of the sea in Ukraine.</p>
               </div>
-              <div
-                class="header-wrap__address d-none d-sm-flex align-items-center gap-1 justify-content-md-end justify-content-start">
-                <div class="d-flex justify-content-md-end justify-content-start">
-                  <button class="header-wrap__address__btn f-size12 f-weight700 active">УК</button>
-                  <button class="header-wrap__address__btn f-size12 f-weight700">РУ</button>
-                  <button class="header-wrap__address__btn f-size12 f-weight700">EN</button>
-                </div>
-                <address
-                  class="d-flex align-items-center text-light m-0 header-wrap__address-gap justify-content-md-end justify-content-start">
-                  <p class="adress-item mb-0">Kyiv, Mechnikova str, 14/1</p>
-                  <p class="adress-item mb-0 f-size16 f-weight700">0800 211 927</p>
-                  <a class="adress-item mb-0" href="">
-                    <object data="./assets/img/Facebook-Header.svg" type=""></object>
-                  </a>
-                </address>
+              <div class="carousel-item carousel-inner__txt">
+                <h1>Structuring corporate relationships</h1>
+                <p>Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into
+                  the
+                  daily life of
+                  your company.</p>
               </div>
-              <div class="header-wrap__nav offcanvas offcanvas-bottom justify-content-md-end justify-content-start"
-                tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header justify-content-end">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body justify-content-md-end justify-content-start">
-                  <ul class="d-flex gap-3 ps-0 flex-sm-row flex-column flex-nowrap">
-                    <li><a class="nav-link" href="#">about us</a></li>
-                    <li><a class="nav-link" href="#">services</a></li>
-                    <li><a class="nav-link" href="#">team</a></li>
-                    <li><a class="nav-link" href="#">publications</a></li>
-                    <li><a class="nav-link" href="#">contact</a></li>
-                  </ul>
-                </div>
+              <div class="carousel-item carousel-inner__txt">
+                <h1>Comprehensive daily
+                  legal support</h1>
+                <p>In addition, over time, the work will become the same type and uninteresting for a full-time lawyer.
+                  And we know very
+                  well how difficult it is to find a good candidate with experience in the field of information
+                  technology
+                  in Ukraine.</p>
+              </div>
+              <div class="carousel-item carousel-inner__txt">
+                <h1>IT and e-commerce</h1>
+                <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts
+                  you from doing
+                  business. But there is not much work to do to hire an in-house lawyer.</p>
               </div>
             </div>
-          </nav>
+          </div>
         </div>
-      </header>
-      <div>
-        <h1 class="text-light text-center f-weight700 f-size38">you legal solutions provider</h1>
-      </div>
-      <div class="text-center">
-        <button class="scroll-btn" type="button" id="#down"><img src="./assets/img/Scroll.svg" alt=""></button>
       </div>
     </section>
   </main>

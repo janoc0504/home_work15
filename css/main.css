@@ -283,6 +283,9 @@ h1 {
   text-transform: uppercase;
 }
 
+.blocks {
+  margin-top: 30px;
+}
 .blocks__item {
   background: #1C4280;
   display: flex;
@@ -565,6 +568,9 @@ h1 {
   text-transform: uppercase;
 }
 
+.blocks {
+  margin-top: 30px;
+}
 .blocks__item {
   background: #1C4280;
   display: flex;
@@ -756,6 +762,9 @@ h1 {
   text-transform: uppercase;
 }
 
+.blocks {
+  margin-top: 30px;
+}
 .blocks__item {
   background: #1C4280;
   display: flex;

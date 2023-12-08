@@ -1,0 +1,24 @@
+<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="6" height="6" fill="#E5E5E5"/>
+<g id="Homepage / Desktop HD" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="3951" transform="translate(-367 -3849)" fill="white"/>
+<g id="Footer / Desktop">
+<rect width="1920" height="171" transform="translate(-367 -69)" fill="#F5F5FA"/>
+<g id="Frame 3">
+<g id="Contacts" clip-path="url(#clip1_0_1)">
+<g id="Frame 3_2">
+<circle id="Dot separator" cx="3" cy="3" r="3" fill="#B3B3BA"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="3951" fill="white" transform="translate(-367 -3849)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="398" height="79" fill="white" transform="translate(-207 -7)"/>
+</clipPath>
+</defs>
+</svg>

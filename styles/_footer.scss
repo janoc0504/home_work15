@@ -1,0 +1,160 @@
+.wrap {
+  display: grid;
+  grid-template-areas:
+    "block1" "block2" "block3";
+
+  @media screen and (min-width: 576px) {
+    grid-template-areas:
+      "block1 block2"
+      "block3 block3";
+    gap: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-template-areas: "block1 block2 block3";
+    gap: 30px;
+  }
+
+
+
+  &__block1,
+  &__block2,
+  &__block3 {
+    display: flex;
+    flex-direction: column;
+    grid-area: block1;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+    &-img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &-hr {
+      height: 4px;
+      background: var(--grey-separator, #E6E6F0);
+      margin: 30px 0 30px;
+    }
+
+    &-txt {
+      margin: 30px;
+      height: auto;
+    }
+
+    h4 {
+      color: var(--active-regular, #24A3FF);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    h5 {
+      color: var(--grey-text, #B3B3BA);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  }
+
+  &__block2 {
+    grid-area: block2;
+  }
+
+  &__block3 {
+    grid-area: block3;
+  }
+}
+
+.section-footer {
+  background: var(--grey-bg, #F5F5FA);
+  margin-top: 60px;
+
+  &__title {
+    padding: 30px 0 30px 0;
+  }
+
+  a {
+    color: var(--active-regular, #24A3FF);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--grey-text, #B3B3BA);
+
+    &:hover {
+      background: var(--gradient-text-red-reversed, linear-gradient(90deg, #ef8080 0.84%, #f0145a 99.96%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.align-center {
+  align-items: center;
+}
+
+.footer {
+  padding-bottom: 30px;
+
+  &__p {
+    margin: 0;
+  }
+
+  &__autor {
+    display: none;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+
+  @media screen and (min-width: 768px) {
+    &__autor {
+      display: contents;
+    }
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-areas: "block11" "block13" "block12";
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    grid-template-areas: "block11 block12" "block13 block12";
+  }
+
+  &_block11 {
+    grid-area: block11;
+  }
+
+  &_block12 {
+    grid-area: block12;
+    text-align: end;
+  }
+
+  &_block13 {
+    grid-area: block13;
+  }
+}

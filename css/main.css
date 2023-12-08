@@ -1062,9 +1062,6 @@ h1 {
 .footer__p {
   margin: 0;
 }
-.footer__autor {
-  display: none;
-}
 @media screen and (min-width: 768px) {
   .footer__autor {
     display: contents;

@@ -818,9 +818,8 @@ h1 {
   }
 }
 
-.carousel-indicators {
+.carousel-indicators__style {
   position: static;
-  flex-direction: column;
 }
 
 .buttons {
@@ -897,7 +896,7 @@ h1 {
   position: unset;
 }
 
-.carousel-item {
+.carousel-item__block {
   background-color: rgb(230, 230, 230);
   display: block;
 }
@@ -947,6 +946,10 @@ h1 {
   height: 100%;
   width: 400px;
   border-radius: 12px 0px 0px 12px;
+}
+
+.carousel-gorizont {
+  margin-top: 60px;
 }
 
 .wrap {

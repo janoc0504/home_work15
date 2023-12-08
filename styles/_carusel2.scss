@@ -11,8 +11,10 @@
 }
 
 .carousel-item {
-  background-color: rgb(230, 230, 230);
-  display: block;
+  &__block {
+    background-color: rgb(230, 230, 230);
+    display: block;
+  }
 
   &__content {
     display: flex;
@@ -68,4 +70,8 @@
       border-radius: 12px 0px 0px 12px;
     }
   }
+}
+
+.carousel-gorizont {
+  margin-top: 60px;
 }

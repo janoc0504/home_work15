@@ -379,6 +379,7 @@ h1 {
 .adress-item {
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 .adress-item:before {
   content: "";

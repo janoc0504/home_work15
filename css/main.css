@@ -465,6 +465,10 @@ h1 {
   height: 350px;
 }
 
+.navbar-brand {
+  max-width: 100%;
+}
+
 body {
   font-family: Montserrat;
 }
